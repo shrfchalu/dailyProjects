@@ -2,25 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Variables and JS</title>
+    <title>Sign-up Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Update <span class="h1">CSS</span> Variables with <span class="h1">JS</span></h2>
+    <!-- 1st Project -->
+   <form action="">
+    <label for="username">Username : </label>
+    <input type="text" name="username" id="username" required><br>
 
-    <div class="controls">
-        <label for="spacing">Spacing :</label>
-        <input type="range" id="spacing" name="spacing" min="0" max="200" value="0" data-sizing="px">
+    <label for="password">Password :</label>
+    <input type="password" name="password" id="password" required><br>
 
-        <label for="blur">Blur</label> 
-        <input type="range" id="blur" name="blur" min="0" max="25" value="5" data-sizing="px">
-        
-        <label for="base">Base Color</label>
-        <input type="color" id="base" name="base" value="#ffc600">
+    <label for="email">Email :</label>
+    <input type="email" name="email" id="email" required><br>
 
-        <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500" alt="Loading">
-    </div>
-    <script src="script.js"></script>
+    <label for="phone">Phone :</label>
+    <input type="number" name="phone" id="phone"><br>
+
+    <label for="DOB">Date of Birth :</label>
+    <input type="date" name="DOB" id="DOB"><br>
+
+    <label for="tos">I agree to the TOS</label>
+    <input type="checkbox" name="DOB" id="tos"><br>
+
+    <button>SignUp</button>
+
+   </form>
 </body>
 </html>
